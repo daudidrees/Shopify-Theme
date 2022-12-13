@@ -10,7 +10,7 @@
   <title>Shopify Theme</title>
 </head>
 
-<body>
+<body class="bg-gray-50">
   <!-- Banner news -->
   <div class="relative bg-indigo-600">
     <div class="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
@@ -724,7 +724,7 @@
   </div>
   <!-- Navbar end -->
 
-  <header class="relative overflow-hidden mt-10 mb-10">
+  <header class="relative overflow-hidden mt-10 mb-10 hero-wrapper">
 
     <div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
       <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
@@ -743,35 +743,36 @@
                 class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
                 <div class="flex items-center space-x-6 lg:space-x-8">
                   <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                    <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+                    <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100 header-img"
+                      data-set="5">
                       <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg" alt=""
                         class="h-full w-full object-cover object-center">
                     </div>
-                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <div class="h-64 w-44 overflow-hidden rounded-lg header-img" data-set="5">
                       <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg" alt=""
                         class="h-full w-full object-cover object-center">
                     </div>
                   </div>
                   <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <div class="h-64 w-44 overflow-hidden rounded-lg  header-img" data-set="5">
                       <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg" alt=""
                         class="h-full w-full object-cover object-center">
                     </div>
-                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <div class="h-64 w-44 overflow-hidden rounded-lg header-img" data-set="5">
                       <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg" alt=""
                         class="h-full w-full object-cover object-center">
                     </div>
-                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <div class="h-64 w-44 overflow-hidden rounded-lg header-img" data-set="5">
                       <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg" alt=""
                         class="h-full w-full object-cover object-center">
                     </div>
                   </div>
                   <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <div class="h-64 w-44 overflow-hidden rounded-lg header-img" data-set="5">
                       <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg" alt=""
                         class="h-full w-full object-cover object-center">
                     </div>
-                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <div class="h-64 w-44 overflow-hidden rounded-lg  header-img" data-set="5">
                       <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg" alt=""
                         class="h-full w-full object-cover object-center">
                     </div>
@@ -800,12 +801,12 @@
         </a>
       </div>
 
-      <div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8">
+      <div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8 ">
         <div
-          class="relative group aspect-w-2 aspect-h-1 overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2">
+          class="cursor-pointer transition-all duration-700 hover:scale-105 relative group aspect-w-2 aspect-h-1 overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2">
           <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-featured-category.jpg"
             alt="Two models wearing women's black cotton crewneck tee and off-white cotton crewneck tee."
-            class="object-cover h-full object-center group-hover:opacity-75">
+            class="object-cover h-full object-center group-hover:opacity-75 ">
           <div aria-hidden="true" class="bg-gradient-to-b from-transparent to-black opacity-50"></div>
           <div class="flex items-end p-6">
             <div>
@@ -819,7 +820,8 @@
             </div>
           </div>
         </div>
-        <div class="group aspect-w-2 aspect-h-1 overflow-hidden rounded-lg sm:aspect-none sm:relative sm:h-full">
+        <div
+          class="group transition-all duration-700 hover:scale-105 aspect-w-2 aspect-h-1 overflow-hidden rounded-lg sm:aspect-none sm:relative sm:h-full">
           <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg"
             alt="Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters."
             class="object-cover object-center group-hover:opacity-75 sm:absolute sm:inset-0 sm:h-full sm:w-full">
@@ -837,7 +839,8 @@
             </div>
           </div>
         </div>
-        <div class="group aspect-w-2 aspect-h-1 overflow-hidden rounded-lg sm:aspect-none sm:relative sm:h-full">
+        <div
+          class="group transition-all duration-700 hover:scale-105 aspect-w-2 aspect-h-1 overflow-hidden rounded-lg sm:aspect-none sm:relative sm:h-full">
           <img src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg"
             alt="Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk."
             class="object-cover object-center group-hover:opacity-75 sm:absolute sm:inset-0 sm:h-full sm:w-full">
@@ -1055,7 +1058,7 @@
     <div class="overflow-hidden pt-32 sm:pt-14">
       <div class="bg-gray-800">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div class="relative pt-48 pb-16 sm:pb-24">
+          <div class="relative pt-48 pb-48">
             <div>
               <h2 id="sale-heading" class="text-4xl font-bold tracking-tight text-white md:text-5xl">
                 Final Stock.
@@ -1074,34 +1077,40 @@
               <div class="ml-24 flex min-w-max space-x-6 sm:ml-3 lg:space-x-8">
                 <div class="flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
                   <div class="flex-shrink-0">
-                    <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
+                    <img
+                      class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72 cursor-pointer transition-all duration-500 hover:scale-110"
                       src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg" alt="">
                   </div>
 
                   <div class="mt-6 flex-shrink-0 sm:mt-0">
-                    <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
+                    <img
+                      class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72 cursor-pointer transition-all duration-500 hover:scale-110"
                       src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg" alt="">
                   </div>
                 </div>
                 <div class="flex space-x-6 sm:-mt-20 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
                   <div class="flex-shrink-0">
-                    <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
+                    <img
+                      class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72 cursor-pointer transition-all duration-500 hover:scale-110"
                       src="https://tailwindui.com/img/ecommerce-images/home-page-03-favorite-01.jpg" alt="">
                   </div>
 
                   <div class="mt-6 flex-shrink-0 sm:mt-0">
-                    <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
+                    <img
+                      class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72 cursor-pointer transition-all duration-500 hover:scale-110"
                       src="https://tailwindui.com/img/ecommerce-images/home-page-03-favorite-02.jpg" alt="">
                   </div>
                 </div>
                 <div class="flex space-x-6 sm:flex-col sm:space-x-0 sm:space-y-6 lg:space-y-8">
                   <div class="flex-shrink-0">
-                    <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
+                    <img
+                      class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72 cursor-pointer transition-all duration-500 hover:scale-110"
                       src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg" alt="">
                   </div>
 
                   <div class="mt-6 flex-shrink-0 sm:mt-0">
-                    <img class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
+                    <img
+                      class="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72 cursor-pointer transition-all duration-500 hover:scale-110"
                       src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg" alt="">
                   </div>
                 </div>
@@ -1126,7 +1135,8 @@
           adipisicing elit. Ipsa libero labore natus atque, ducimus sed.</p>
       </div>
       <div class="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
-        <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+        <div
+          class="flex flex-col overflow-hidden rounded-lg shadow-lg cursor-pointer transition-all duration-300 hover:translate-y-[-10px]">
           <div class="flex-shrink-0">
             <img class="h-48 w-full object-cover"
               src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
@@ -1167,7 +1177,8 @@
           </div>
         </div>
 
-        <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+        <div
+          class="flex flex-col overflow-hidden rounded-lg shadow-lg cursor-pointer transition-all duration-300 hover:translate-y-[-10px]">
           <div class="flex-shrink-0">
             <img class="h-48 w-full object-cover"
               src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
@@ -1208,7 +1219,8 @@
           </div>
         </div>
 
-        <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
+        <div
+          class="flex flex-col overflow-hidden rounded-lg shadow-lg cursor-pointer transition-all duration-300 hover:translate-y-[-10px]">
           <div class="flex-shrink-0">
             <img class="h-48 w-full object-cover"
               src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
@@ -1479,6 +1491,9 @@
     </div>
   </footer>
   <!-- Footer end -->
+
+
+  <script src="script/app.js"></script>
 </body>
 
 </html>
