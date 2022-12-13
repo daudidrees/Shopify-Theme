@@ -1,6 +1,6 @@
 const header = document.querySelector('.hero-wrapper')
 
-if (header) {
+if (header != null) {
   header.addEventListener('mousemove', function (e) {
     const images = document.querySelectorAll('.header-img');
     images.forEach(el => {
